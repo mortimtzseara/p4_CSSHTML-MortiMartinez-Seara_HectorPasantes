@@ -1,0 +1,158 @@
+html{
+    background-image: url(../../resources/img/fondo.jpg);
+    color:white;
+}
+@font-face {
+  font-family: 'ethnocentric';
+  src: url('../fonts/Ethnocentric-Regular.otf');
+}
+@font-face {
+    font-family: 'CreatoDisplay';
+    src: url('../fonts/Sunlight\ Dreams.otf');
+}
+article{
+    font-family: CreatoDisplay;
+}
+h2{
+    font-family: ethnocentric;
+}
+nav{
+    background-image: linear-gradient(rgb(89, 56, 133),  rgb(18, 2, 39));
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 15px;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    font-family: ethnocentric;
+}
+nav img {
+    width: 64px;
+}
+nav a {
+    background-color: blueviolet;
+    padding:10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+a {
+    color: white;
+}
+h1 {
+    display:inline;
+    vertical-align: 20px;
+}
+.buttons{
+    padding: 25px;
+    margin-right: 14px;
+    margin-left: auto;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(25, 2, 63);
+}
+.lanzamientos{
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-top: 6rem;
+}
+.lanzamientos article{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 10px;
+}
+.lanzamientos_grid{
+    display: grid;
+    grid-template-columns: 19% 19% 19% 19% 19%;
+    margin: 1rem;
+    grid-gap:1rem;
+}
+.lanzamientos_grid img{
+    width: 100%;
+}
+.lanzamientos_grid h3{
+    font-size: larger;
+}
+.destacados{
+    background-image: radial-gradient(rgba(89, 56, 133, 0.7) rgba(167, 21, 180, 0.7));
+    display: grid;
+    grid-template-rows: auto auto;
+    padding: 1rem;
+}
+.destacados_grid{
+    display: grid;
+    grid-gap:0.7rem;
+    grid-template-columns: auto auto auto auto;
+    padding:10px; 
+    margin:10px; 
+}
+.destacados_grid a{
+    text-decoration: none;
+    color: white;
+}
+.destacados_grid a article{
+    display: grid;
+    grid-template-columns: 115px auto;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 5px;
+    padding: 10px;
+}
+.destacados_grid img{
+    width: 100px;
+}
+.top {
+    display:grid;
+    justify-content: center;
+    background-image: radial-gradient(rgba(89, 56, 133, 0.7),  rgba(18, 2, 39, 0.7));
+    padding: 10px;
+}
+.festivales {
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    grid-template-columns: auto 200px auto auto auto;
+    margin-top: 6rem;
+}
+.festivales img {
+    width:75%;
+}
+.extras {
+    background-image: radial-gradient(rgba(89, 56, 133, 0.7));
+    display: grid;
+    grid-template-rows: auto auto;
+    padding: 1rem;
+    justify-content: center;
+}
+.extra {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    padding: 100 px;
+    grid-gap: 100px;
+}
+.extras img {
+    width: 10vw;
+}
+.detalle_artistas{
+    margin-top: 7rem;
+    display: inline-block;
+}
+.detalle_artistas article{
+    display: grid;
+    grid-template-rows: auto auto;
+    margin:1rem;
+}
+.detalle_artistas div img{
+    display: inline-block;
+    width: 30rem;
+    
+}
+.detalle_grid{
+    display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 1rem;
+}
+form{
+    margin-top: 7rem;
+}

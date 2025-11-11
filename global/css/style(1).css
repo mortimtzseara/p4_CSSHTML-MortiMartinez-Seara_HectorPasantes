@@ -1,0 +1,116 @@
+html{
+    background-image: url(../../resources/img/fondo.jpg);
+    color:white;
+}
+
+.lanzamientos article{
+    display: inline-block;
+}
+.lanzamientos img{
+    width: 75%;
+}
+.destacados{
+    background-image: radial-gradient(rgba(89, 56, 133, 0.7));
+    display: grid;
+    grid-template-rows: auto auto;
+    padding: 1rem;
+}
+.grid{
+    
+    display: grid;
+    grid-gap:0.7rem;
+    grid-template-columns: auto auto auto auto;
+    padding:10px; 
+    margin:10px; 
+}
+.grid a{
+    text-decoration: none;
+    color: white;
+}
+.grid a article{
+    display: grid;
+    grid-template-columns: 115px auto;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 5px;
+    padding: 10px;
+
+}
+.grid img{
+    width: 100px;
+}
+.lanzamientos{
+    background-image: radial-gradient(rgba(89, 56, 133, 0.7));
+    display: grid;
+    grid-template-rows: auto auto;
+    padding: 1rem;
+    justify-content: center;
+}
+.lanza{
+    
+    display: grid;
+    grid-gap:0.7rem;
+    grid-template-columns: auto auto auto auto auto;
+    padding:10px; 
+    margin:10px;
+    display:flex;
+    flex-wrap: wrap;
+    width: 70vw ;
+}
+.lanza article{
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: content-box;
+    width: 12vw
+}
+.bar {
+    display: grid;
+    background-color: radial-gradient(rgba(89, 56, 133, 0.7));
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: center;
+    padding: 15px;
+    grid-gap:10px;
+}
+.bar a {
+    background-color: blueviolet;
+    padding:10px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+h1 img{
+    width:1.7%;
+}
+.top {
+    display:grid;
+    justify-content: center;
+    background-color: radial-gradient(rgba(89, 56, 133, 0.7));
+    padding: 10px;
+}
+.festivales {
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    grid-template-columns: auto 200px auto auto auto;
+}
+.festivales img {
+    width:75%;
+}
+.extras {
+    background-image: radial-gradient(rgba(89, 56, 133, 0.7));
+    display: grid;
+    grid-template-rows: auto auto;
+    padding: 1rem;
+    justify-content: center;
+}
+.extra {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    padding: 100 px;
+    grid-gap: 100px;
+}
+.extras img {
+    width: 10vw;
+}
