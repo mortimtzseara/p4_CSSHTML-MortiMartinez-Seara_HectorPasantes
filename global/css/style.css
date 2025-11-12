@@ -156,3 +156,49 @@ a:hover{
 form{
     margin-top: 7rem;
 }
+.top_aside{
+    width: 100%;
+}
+table {
+    width: 50%;
+    background-color: rgba(18, 2, 39, 0.7);
+}
+aside{
+    width: 50%;
+}
+
+caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+thead th {
+    text-align: left;
+    padding: 10px;
+}
+
+tbody {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Crea dos columnas */
+    gap: 20px; /* Espacio entre las filas */
+    padding: 10px;
+}
+
+tbody tr {
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos hacia la parte superior */
+    justify-content: flex-start; /* Alinea todo hacia la izquierda */
+    padding: 10px 0;
+}
+
+td {
+    padding: 10px;
+    vertical-align: top;
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+table img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px; /* Añade espacio entre la imagen y el texto */
+}
